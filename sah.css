@@ -1,0 +1,276 @@
+.home {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 317px;
+    cursor: pointer;
+}
+
+.region {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 213px;
+    cursor: pointer;
+}
+
+.about {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 125px;
+    cursor: pointer;
+}
+
+
+
+
+.main {
+    background-image: url(https://p0.pikist.com/photos/465/667/desert-morocco-sand-dune-dry-sahara-drought-gobi-desert-traces-dunes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+}
+.main:hover{margin-top: -6px;}
+@media only screen and (max-width: 768px){
+.main{
+    height: 220vh;
+}}
+.image-container {
+    display: flex;
+    position: relative;
+}
+.head {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.image1 {
+    background-image: url(https://crayon.pk/wp-content/uploads/2018/05/Camels-on-Thal.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 112px;
+    right: 419px;
+    transition: child1 20s ease-in-out;
+}
+@media only screen and (max-width: 768px){
+    .image1 {
+        width: 500px;
+        height: 260px;
+        position: absolute;
+        top: 350px;
+        right: 120px;
+    }}
+
+.image1:hover{margin-top: -8px;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.image2 {
+    background-image: url(https://p0.pikist.com/photos/81/611/mountains-beautiful-red-rocks-canyon-cliff-steep-las-vegas-desert-rock.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 112px;
+    right: 80px;
+    transition: child1 20s ease-in-out;
+}
+
+.image2:hover{margin-top: -8px;}
+@media only screen and (max-width: 768px){
+    .image2 {
+        width: 500px;
+        height: 260px;
+        position: absolute;
+        top: 650px;
+        right: 120px;
+    }}
+
+.image3 {
+    background-image: url(https://toplistsx.com/wp-content/uploads/10-Most-Famous-Landmarks-850x560.jpg.webp);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 400px;
+    right: 419px;
+    transition: child1 20s ease-in-out;
+}
+
+.image3:hover{ 
+    margin-top: -8px;
+}
+@media only screen and (max-width: 768px){
+    .image3 {
+        width: 500px;
+        height: 260px;
+        position: absolute;
+        top: 950px;
+        right: 120px;
+    }}
+
+.image4 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/19/17/50/star-4862774_960_720.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 400px;
+    right: 80px;
+    transition: child1  20s ease-in-out;}
+
+    .image4:hover{margin-top: -8px;}
+
+    @media only screen and (max-width: 768px){
+        .image4 {
+            width: 500px;
+            height: 260px;
+            position: absolute;
+            top: 1250px;
+            right: 120px;
+        }}
+
+   
+.sahara {
+    font-size: 5.3rem;
+    position: absolute;
+    bottom: 358px;
+    left: 129px;
+    color: white;
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px){
+    .sahara {
+        font-size: 2.8rem;
+        position: absolute;
+        top: 107px;
+        left: 75px;
+    }}
+
+
+.text {
+    position: absolute;
+    bottom: 302px;
+    left: 129px;
+    color: white;}
+
+    @media only screen and (max-width: 768px){
+        .text {
+            font-size: 1.1rem;
+            position: absolute;
+            top: 160px;
+            left: 78px;
+        }}
+
+
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 80px;
+}
+.logo {
+    background-image: url(http://logok.org/wp-content/uploads/2015/08/Camel-logo-640x480.png);
+    background-size: cover;
+    height: 120px;
+    width: 164px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    color: white;
+}
+
+.explore {
+    display: inline;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 227px;
+    left: 172px;
+    font-size: 20px;
+    width: 167px;
+    height: 50px;
+    cursor: pointer;
+}
+
+  @media only screen and (max-width: 768px){
+    .explore {
+        position: absolute;
+        top: 263px;
+        left: 72px;
+    }}
+    
+.menu {
+    cursor: pointer;
+}
+.bars {
+    position: absolute;
+    top: 16px;
+    right: 70px;
+    color: white;
+}
+
+.circle {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid;
+    position: absolute;
+    top: 10px;
+    right: 64px;
+}
+
